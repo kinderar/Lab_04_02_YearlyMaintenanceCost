@@ -7,7 +7,7 @@ public class Main {
         int fallCost = 2500; //input replacement
         int winterCost = 4000; //input replacement
         int yearlyCost = 0;
-            yearlyCost = springCost + summerCost + fallCost + winterCost;
+            yearlyCost = springCost + summerCost + fallCost + winterCost; //Adding all the costs together
         System.out.println("The total cost is " + yearlyCost + " with spring costing " + springCost + ", summer costing " + summerCost + ", fall costing " + fallCost + ", and winter costing " + winterCost + ".");
     }
 }
